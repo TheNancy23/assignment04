@@ -1,0 +1,109 @@
+/* <!-- Coolors Palette Widget -->
+      <script src="https://coolors.co/palette-widget/widget.js"></script>
+      "b1b1b5" - Silver Metalic
+      "d45465", - paradise pink
+      "d9a922", - goldenrod
+      "3591aa", - bluemunsell
+      "723d40"]); - catawba 
+      </script> */
+
+/* Global styles
+------------------- */
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+Body {
+    color: #723d40;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    Font-size: 18px;
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+}
+a{
+    color: #d9a922;
+}
+a:hover {
+    text-decoration: none;
+}
+h1 { 
+    font-size: 100px;
+    line-height: 1;
+    text-shadow: 2px 2px 4px #000000;
+}
+h2 {
+    font-size: 42px;
+}
+h1, h2 {
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-weight: 400;
+    margin: 0;
+}
+.content-wrap{
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+/* profile
+------------------------- */
+header {
+    background-color: #d45465;
+    color: whitesmoke;
+}
+
+/* Projects
+------------------------- */
+.projects {
+    background-Color: #b1b1b5;
+}
+.projects a {
+    Color: midnightblue;
+}
+.projects .btn {
+    color: whitesmoke;
+    background-color: #723d40;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(114,61,64,80%)
+}
+.project-item {
+    overflow:hidden;
+    border-bottom: 1px dashed #723d40;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin-right: 20px;
+}
+.project-item h3 {
+    margin-top: 0;
+}
+
+/* Work Experience
+------------------------ */
+.work-experience {
+    background-color: #d9a922;
+}
+
+/* Education
+------------------------ */
+
+/* Contact Info
+------------------------- */
+footer {
+    background-color: #3591aa;
+    color: whitesmoke;
+}
